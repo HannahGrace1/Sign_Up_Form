@@ -1,0 +1,122 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  position: absolute;
+  margin-top: 50px;
+  left: 35px;
+  color: whitesmoke;
+  font-size: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: cursive;
+  
+}
+div.content{
+  color: white;
+  font-family: 'Courier New',  'monospace' ;
+  font-size: 26px;
+  margin-left: 700px;
+  margin-top: -850px;
+  text-align: top;
+}
+div.image{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 45%;
+ 
+
+
+}
+.writing{
+  margin-left: 125px;
+  margin-top: 20px;
+}
+ form{
+  background-color: white;
+  text-align: center;
+  font-size: 22px;
+  margin-left: 500px;
+  margin-top: 100px;
+  height: 230px;
+ }
+
+ div.left_Container{
+  margin-left: 115px;
+  margin-top: 25px;
+  border-radius: 5px;
+  align-items: center;
+  display: inline-table;
+  flex-flow: colum-wrap;
+  padding: 10px;
+  font-size: 22px;
+ 
+  
+} 
+/* 
+div.right_Container{
+  margin-left: 600px;
+  margin-top: -75px;
+  this is a part of something diff
+  border-radius: 5px;
+  align-items: left;
+  display: table;
+  flex-flow: colum-wrap;
+  padding: 10px;
+  position: relative;
+  notthe same as top
+ border-radius: 5px;
+  align-items: center;
+  display: inline-table;
+  flex-flow: colum-wrap;
+  padding: 8px;
+  font-size: 20px;
+  table-layout: fixed;
+vertical-align: left;
+   width: 5px;
+   height: 15px;
+} */ 
+  
+/* div.right_Container{
+  margin-left: 60%;
+  margin-top: -145px;
+  border-radius: 5px;
+  align-items: right;
+  display: grid;
+  flex-flow: colum-wrap;
+  padding: 40px;
+ position: relative;
+}  */
+
+div.bottom{
+  margin-left: 700px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 26px;
+  color: white;
+  font-family: 16px'Courier New',  'monospace' ;
+}
+button{
+  font-size: 26px;
+  color: white;
+  font-family: 16px'Courier New',  'monospace' ;
+  background-color: #64ffda;
+}
+.password:valid{
+    border-color: #64ffda;
+}
+.password:invalid{
+  border-color: red;
+}
+
+.confirm_Password:valid{
+    border-color: #64ffda;
+}
+.confirm_Password:invalid{
+  border-color: red;
+}
